@@ -1,0 +1,16 @@
+/* サイト全体の背景と文字の設定 */
+body {
+  background-color: #f0f8ff; /* 薄い青色 */
+  color: #333333; /* 濃いグレーの文字 */
+  font-family: sans-serif; /* 読みやすいフォント */
+  padding: 50px; /* 周りに余白を作る */
+  text-align: center; /* 文字を真ん中に寄せる */
+}
+
+/* 見出しのデザイン */
+h1 {
+  color: #ff6347; /* トマト色 */
+  font-size: 40px; /* 文字を大きく */
+  border-bottom: 3px solid #ff6347; /* 下線を引く */
+  display: inline-block; /* 下線を文字の長さに合わせる */
+}
