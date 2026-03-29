@@ -1,41 +1,28 @@
-body {
-  background-color: #f4f7f6; /* 落ち着いた薄いグレー */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  color: #333;
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
-}
-
-.container {
-  background-color: #fff;
-  padding: 30px;
-  border-radius: 15px; /* 角を丸くする */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* ふわっと浮いた影 */
-  max-width: 500px;
-  width: 90%;
-}
-
-h1 {
-  color: #2c3e50;
-  border-bottom: 2px solid #3498db;
-  padding-bottom: 10px;
-}
-
-h2 {
-  font-size: 1.2rem;
-  color: #3498db;
-  margin-top: 20px;
-}
-
+/* 全てのリストの点を強制的に消す */
 ul {
-  list-style: none; /* 点を消す */
+  list-style: none !important;
   padding: 0;
+  margin: 0;
 }
 
+/* サイト全体の見た目 */
+body {
+  background-color: #f0f8ff;
+  color: #333;
+  font-family: sans-serif;
+  text-align: center; /* これで文字が真ん中に寄る */
+  padding: 50px;
+}
+
+/* リストの各項目 */
 li {
-  background: #e8f4fd;
-  margin: 5px 0;
-  padding: 8px;
-  border-radius: 5px;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+/* ついでに見出しもカッコよく */
+h1 {
+  color: #ff6347;
+  border-bottom: 2px solid #ff6347;
+  display: inline-block;
 }
